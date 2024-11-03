@@ -1,5 +1,5 @@
 {
-  "name": "React-Essential-Extension-Pack",
+  "name": "react-essential-extension-pack-xys",
   "displayName": "React Essential Extensions",
   "publisher": "XYIAN",
   "description": "Pack is made for XYIAN developers and because of this is quite universal with added extensions for react and typescript coding",
@@ -14,27 +14,14 @@
     "Extension Packs",
     "Snippets",
     "Visualization",
-    "Themes",
-    "Linters"
+    "Themes"
   ],
   "galleryBanner": {
-    "color": "#050180",
+    "color": "#08090a",
     "theme": "dark"
   },
-  "icon": "images/yamaha_blue.ico",
+  "icon": "images/Primary.png",
   "contributes": {
-    "snippets": [
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/yamaha-general.code-snippets"
-      }
-    ],
-    "commands": [
-      {
-        "command": "yds-core.welcome",
-        "title": "YAMAHA"
-      }
-    ]
   },
   "extensionPack": [
     "Gruntfuggly.todo-tree",
