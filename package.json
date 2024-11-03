@@ -1,8 +1,8 @@
 {
-  "name": "yamaha-extensionPack",
-  "displayName": "YAMAHA Development Team Extension Pack (YDS)",
-  "publisher": "YAMAHA",
-  "description": "Externally maintained extension pack for YAMAHA Motor Company (YDS) deveopment team.",
+  "name": "React-Essential-Extension-Pack",
+  "displayName": "React Essential Extensions",
+  "publisher": "XYIAN",
+  "description": "Pack is made for XYIAN developers and because of this is quite universal with added extensions for react and typescript coding",
   "version": "0.1.18",
   "engines": {
     "vscode": "^1.6.0"
@@ -37,9 +37,6 @@
     ]
   },
   "extensionPack": [
-    "YAMAHA.yds-snippets",
-    "YAMAHA.yds-core",
-    "YAMAHA.git-yds",
     "Gruntfuggly.todo-tree",
     "alefragnani.Bookmarks",
     "esbenp.prettier-vscode",
