@@ -7,16 +7,16 @@ import * as vscode from "vscode";
 export function activate(context: vscode.ExtensionContext) {
   // Use the console to output diagnostic information (console.log) and errors (console.error)
   // This line of code will only be executed once when your extension is activated
-  console.log("Welcome to YDS!cd");
+  console.log("Welcome to XYIAN  Software!");
 
   // The command has been defined in the package.json file
   // Now provide the implementation of the command with registerCommand
   // The commandId parameter must match the command field in package.json
-  let disposable = vscode.commands.registerCommand("yds-core.welcome", () => {
+  let disposable = vscode.commands.registerCommand("XYS.welcome", () => {
     // The code you place here will be executed every time your command is executed
     // Display a message box to the user
     vscode.window.showInformationMessage(
-      "Success, extension yds-core extension pack is now active! Hapy Coding!"
+      "Success, extension XYS extension pack is now active! Hapy Coding!"
     );
   });
 
@@ -25,11 +25,11 @@ export function activate(context: vscode.ExtensionContext) {
 
 // This method is called when your extension is deactivated
 export function deactivate(context: vscode.ExtensionContext) {
-  let disposable = vscode.commands.registerCommand("yds-core.welcome", () => {
+  let disposable = vscode.commands.registerCommand("xys.welcome", () => {
     // The code you place here will be executed every time your command is executed
     // Display a message box to the user
     vscode.window.showInformationMessage(
-      "YDS-CORE has been deactivated successfully."
+      "XYS has been deactivated successfully."
     );
   });
 
