@@ -3,7 +3,7 @@
   "displayName": "React Essential Extensions from XYIAN Software",
   "publisher": "XYIAN",
   "description": "Pack is made for XYIAN developers and because of this is quite universal with added extensions for react and typescript coding",
-  "version": "0.1.19",
+  "version": "0.1.20",
   "engines": {
     "vscode": "^1.6.0"
   },
