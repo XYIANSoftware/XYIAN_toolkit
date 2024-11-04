@@ -52,6 +52,8 @@
     "naumovs.color-highlight",
     "usernamehw.remove-empty-lines",
     "natqe.reload",
-    "amodio.restore-editors"
+    "amodio.restore-editors",
+    "XYIAN.snippets-xys",
+    "XYIAN.core-settings-xys"
   ]
 }
